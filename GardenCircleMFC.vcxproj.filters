@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e0827d2e-b669-4f20-ae9d-6c36b17e0a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7616958b-6894-4cc9-bf5c-01d8f9d44a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d859c60b-4d40-4c6d-a2ab-e520e6a019e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GardenCanvas.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="GardenCircleApp.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="GardenCircleDlg.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="resource.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GardenCanvas.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="GardenCircleApp.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="GardenCircleDlg.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GardenCircleMFC.rc"><Filter>Resource Files</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>
